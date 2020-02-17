@@ -8,6 +8,13 @@
   <updated>2000-01-01T00:00:00+00:00</updated>
 
   <entry>
+    <id>urn:uuid:5a691413-4454-41f9-bb88-762d033c7163</id>
+    <title>Errors</title>
+    <link href="/errors.xml"/>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+  </entry>
+
+  <entry>
     <id>urn:uuid:0d53494a-f7f3-4435-929a-122c74a67f74</id>
     <title>Rendering</title>
     <link href="/rendering.xml"/>

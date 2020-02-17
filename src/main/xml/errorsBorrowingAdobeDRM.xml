@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:5d660cdb-1272-4104-a922-1acf718d1398</id>
+  <title>Commonfields OPDS Suite: Errors Borrowing (Adobe DRM)</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:a3d41088-ee05-4583-a5ac-13ccea74a043</id>
+    <title>Indirect - ACSM</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+    <author>
+      <name>Someone</name>
+    </author>
+
+    <summary type="html">
+      An indirectly accessible book that delivers an invalid ACSM file. Clients
+      should fail to borrow the book by correctly blaming the invalid ACSM file.
+    </summary>
+
+    <link href="strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="entries/a3d41088-ee05-4583-a5ac-13ccea74a043/entry.xml"
+          rel="http://opds-spec.org/acquisition/borrow"
+          type="application/atom+xml;type=entry;profile=opds-catalog">
+      <opds:indirectAcquisition type="application/vnd.adobe.adept+xml">
+        <opds:indirectAcquisition type="application/epub+zip"/>
+      </opds:indirectAcquisition>
+      <opds:availability status="available"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1"
+                   total="1"/>
+    </link>
+  </entry>
+
+</feed>

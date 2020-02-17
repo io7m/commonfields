@@ -6,19 +6,16 @@
   <title>Basic Acquisition</title>
   <updated>2000-01-01T00:00:00+00:00</updated>
 
-  <author>
-    <name>Someone</name>
-  </author>
-
   <summary type="html">
-    A directly accessible book that delivers a public-domain EPUB.
+    A directly accessible book that delivers a public-domain EPUB. Clients
+    should correctly borrow this book.
   </summary>
 
-  <link href="/image/94ab2d3c-c6d9-402a-83c8-fe00232b1a82_cover.png"
+  <link href="/image/strawberries.png"
         type="image/png"
         rel="http://opds-spec.org/image"/>
 
-  <link href="/image/94ab2d3c-c6d9-402a-83c8-fe00232b1a82_thumb.png"
+  <link href="/image/strawberriesThumb.png"
         type="image/png"
         rel="http://opds-spec.org/image/thumbnail"/>
 

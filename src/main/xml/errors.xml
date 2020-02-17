@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <id>urn:uuid:5a691413-4454-41f9-bb88-762d033c7163</id>
+  <title>Commonfields OPDS Suite: Errors</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:0c144221-7d33-479f-9763-d934ca695cbb</id>
+    <title>Errors Borrowing</title>
+    <link href="/errorsBorrowing.xml"/>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:5d660cdb-1272-4104-a922-1acf718d1398</id>
+    <title>Errors Borrowing (Adobe DRM)</title>
+    <link href="/errorsBorrowingAdobeDRM.xml"/>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+  </entry>
+
+</feed>
