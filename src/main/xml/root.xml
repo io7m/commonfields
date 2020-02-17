@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:a0257770-5186-44fc-8ae2-8f7c636c18b8</id>
+  <title>Commonfields OPDS Suite</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:0d53494a-f7f3-4435-929a-122c74a67f74</id>
+    <title>Rendering</title>
+    <link href="/rendering.xml"/>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+  </entry>
+
+</feed>

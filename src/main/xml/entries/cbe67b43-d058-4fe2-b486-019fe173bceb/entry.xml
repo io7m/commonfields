@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<entry xmlns="http://www.w3.org/2005/Atom">
+
+  <id>urn:uuid:cbe67b43-d058-4fe2-b486-019fe173bceb</id>
+  <title>Basic Acquisition</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <author>
+    <name>Someone</name>
+  </author>
+
+  <summary type="html">
+    A directly accessible book that delivers a public-domain EPUB.
+  </summary>
+
+  <link href="/image/94ab2d3c-c6d9-402a-83c8-fe00232b1a82_cover.png"
+        type="image/png"
+        rel="http://opds-spec.org/image"/>
+
+  <link href="/image/94ab2d3c-c6d9-402a-83c8-fe00232b1a82_thumb.png"
+        type="image/png"
+        rel="http://opds-spec.org/image/thumbnail"/>
+
+  <link href="/epub/charles-dickens_great-expectations.epub"
+        rel="http://opds-spec.org/acquisition"
+        type="application/epub+zip"/>
+
+</entry>

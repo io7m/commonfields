@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <id>urn:uuid:ec6837c8-dc7b-46cc-8000-c08da7622924</id>
+  <title>Commonfields OPDS Suite: Ordered Lanes 0</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:aefb9072-5cd6-4b79-ab79-3a41f9206245</id>
+    <title>Book A1</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 0"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:a1920ca2-95f8-411b-9569-52b3b8e63850</id>
+    <title>Book A2</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 0"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:ae0c479b-ecf7-4d25-82fe-1a51bef7f4d9</id>
+    <title>Book A3</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 0"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:b66f5c4c-a65b-4a73-9011-0b7536771fee</id>
+    <title>Book B1</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 1"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:77b81a76-cfe8-45d8-88b9-27825fdb64fc</id>
+    <title>Book B2</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 1"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:b0324620-51e6-41c6-8edd-51c98da6b417</id>
+    <title>Book B3</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 1"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:26da0f6d-80dd-46ea-b3f3-924c7ae3864d</id>
+    <title>Book C1</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 2"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:60ea4b00-6984-426b-8952-d0d1ea720bd3</id>
+    <title>Book C2</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 2"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:7eb22875-cc0f-41cf-9db1-1a74eba9f6d2</id>
+    <title>Book C3</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 2"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+</feed>
