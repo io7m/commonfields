@@ -9,7 +9,9 @@
   <entry>
     <id>urn:uuid:7a64d1a3-ab9c-4cda-a1e2-cd9563427912</id>
     <title>Groups</title>
-    <link href="/renderingGroups.xml"/>
+    <link href="/renderingGroups.xml"
+          rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
     <updated>2000-01-01T00:00:00+00:00</updated>
   </entry>
 

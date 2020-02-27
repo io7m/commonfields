@@ -9,14 +9,18 @@
   <entry>
     <id>urn:uuid:0c144221-7d33-479f-9763-d934ca695cbb</id>
     <title>Errors Borrowing</title>
-    <link href="/errorsBorrowing.xml"/>
+    <link href="/errorsBorrowing.xml"
+          rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
     <updated>2000-01-01T00:00:00+00:00</updated>
   </entry>
 
   <entry>
     <id>urn:uuid:5d660cdb-1272-4104-a922-1acf718d1398</id>
     <title>Errors Borrowing (Adobe DRM)</title>
-    <link href="/errorsBorrowingAdobeDRM.xml"/>
+    <link href="/errorsBorrowingAdobeDRM.xml"
+          rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
     <updated>2000-01-01T00:00:00+00:00</updated>
   </entry>
 

@@ -4,6 +4,7 @@
 
   <id>urn:uuid:ec6837c8-dc7b-46cc-8000-c08da7622924</id>
   <title>Commonfields OPDS Suite: Ordered Lanes 0</title>
+  <subtitle>A feed that contains a set of three lanes that should be rendered in the correct order.</subtitle>
   <updated>2000-01-01T00:00:00+00:00</updated>
 
   <entry>

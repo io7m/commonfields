@@ -9,7 +9,18 @@
   <entry>
     <id>urn:uuid:ec6837c8-dc7b-46cc-8000-c08da7622924</id>
     <title>Ordered Lanes 0</title>
-    <link href="/groups/ordered-lanes-0.xml"/>
+    <link href="/groups/orderedLanes0.xml"
+          rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:aced2101-3b97-4677-b386-7bf37118aec2</id>
+    <title>Duplicate Entry Lanes 0</title>
+    <link href="/groups/duplicateEntry0.xml"
+          rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
     <updated>2000-01-01T00:00:00+00:00</updated>
   </entry>
 

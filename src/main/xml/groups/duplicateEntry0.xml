@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <id>urn:uuid:aced2101-3b97-4677-b386-7bf37118aec2</id>
+  <title>Commonfields OPDS Suite: Duplicate Entry Lanes 0</title>
+  <subtitle>A feed that contains a single lane with two entries that have the same ID.</subtitle>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:ce8ff40e-8666-4086-86ee-38f5182e3245</id>
+    <title>Book A1</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 0"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:ce8ff40e-8666-4086-86ee-38f5182e3245</id>
+    <title>Book B1 (Duplicate ID)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <link href="/nonexistent"
+          rel="collection"
+          title="Collection 1"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/epub+zip"/>
+  </entry>
+
+</feed>
