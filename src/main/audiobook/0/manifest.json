@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "http://readium.org/webpub/default.jsonld"
+  ],
+
+  "readingOrder": [
+    {
+      "title": "Track 0",
+      "href": "http://commonfields.io7m.com/audiobook/0/0.ogg",
+      "duration": 32.0,
+      "type": "application/ogg"
+    },
+    {
+      "title": "Track 1",
+      "href": "http://commonfields.io7m.com/audiobook/0/1.ogg",
+      "duration": 12.0,
+      "type": "application/ogg"
+    },
+    {
+      "title": "Track 2",
+      "href": "http://commonfields.io7m.com/audiobook/0/2.ogg",
+      "duration": 8.0,
+      "type": "application/ogg"
+    },
+    {
+      "title": "Track 3",
+      "href": "http://commonfields.io7m.com/audiobook/0/3.ogg",
+      "duration": 14.0,
+      "type": "application/ogg"
+    }
+  ],
+
+  "metadata": {
+    "title": "Open Access Audio Book",
+    "duration": 1000.0,
+    "identifier": "urn:uuid:708a15c9-7e2a-4d2f-82dc-21dd14a38026"
+  }
+}

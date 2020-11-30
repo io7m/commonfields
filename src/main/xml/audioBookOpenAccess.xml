@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:2b5dd5fc-601d-4420-8033-81e098f5d423</id>
+  <title>Commonfields OPDS Suite (Open Access Audio)</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+
+    <id>urn:uuid:f59615bd-b47d-4371-9ac0-447b59b08bcc</id>
+    <title>Test Audio Book</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A simple audio book.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/audiobook/0/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+</feed>
