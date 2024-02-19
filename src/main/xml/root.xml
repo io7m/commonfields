@@ -24,4 +24,13 @@
     <updated>2000-01-01T00:00:00+00:00</updated>
   </entry>
 
+  <entry>
+    <id>urn:uuid:8efb528d-cbe0-41e8-9651-3758acda4a10</id>
+    <title>Previews</title>
+    <link href="/previews.xml"
+          rel="subsection"
+          type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+  </entry>
+
 </feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:8efb528d-cbe0-41e8-9651-3758acda4a10</id>
+  <title>Commonfields OPDS Suite: Previews</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+  <entry>
+    <id>urn:uuid:33624617-e6fc-48e8-9c1a-64ad53ce1c2e</id>
+    <title>Basic Preview</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A directly accessible book that delivers an EPUB preview.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="http://opds-spec.org/acquisition"
+          type="application/epub+zip"/>
+
+    <link href="/epub/charles-dickens_great-expectations.epub"
+          rel="preview"
+          type="application/epub+zip"/>
+  </entry>
+</feed>
