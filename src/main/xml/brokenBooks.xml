@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:79e76e6d-e5ec-44dc-8590-82a8206dede5</id>
+  <title>Commonfields OPDS Suite: Broken Books</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:ef749a9a-7c48-4a2f-bb12-e9bcbd411e29</id>
+    <title>Broken Link</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A broken book: The book contains missing files.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/open-access"/>
+  </entry>
+
+</feed>
