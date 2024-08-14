@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:033b169e-3cb9-491a-b19b-dd8b01590ea4</id>
+  <title>Commonfields OPDS Suite: Feature Books</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:ecbc72d3-eb55-4f63-a817-a543f9ad90b3</id>
+    <title>External Link</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book containing a link to an external site.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/open-access"/>
+  </entry>
+
+</feed>
