@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:opds="http://opds-spec.org/2010/catalog">
+
+  <id>urn:uuid:327d8088-f223-476b-8195-24bb4a6b9256</id>
+  <title>Commonfields OPDS Suite: Status</title>
+  <updated>2000-01-01T00:00:00+00:00</updated>
+
+  <entry>
+    <id>urn:uuid:e02f3a7d-7818-4ac4-a329-77724ff0df7f</id>
+    <title>Held Indefinitely</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with an indefinite hold and no cancellation.
+    </summary>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:7183c825-6e8a-4e32-bfee-f81f108a8b62</id>
+    <title>Held Indefinite Queued</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with an indefinite hold, no cancellation, and a queue position.
+    </summary>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0" position="3"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:c69722d8-9971-4b21-9d46-e873bc930eec</id>
+    <title>Held Timed</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:e77b4ea9-9f6c-4c09-849e-898e1b8a92c2</id>
+    <title>Held Timed Queued</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold and a queue.
+    </summary>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0" position="3"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:6247fcf4-229e-4c94-ada0-b06fd965a7a5</id>
+    <title>Held Ready</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a hold that's now ready.
+    </summary>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="ready"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:b3732d34-30f7-44f9-ab69-97b992323be2</id>
+    <title>Held Ready (Timed)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold that's now ready.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="ready"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:e33e6c7c-f0a6-4b94-ad18-1106994a5f27</id>
+    <title>Loanable</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loanable.
+    </summary>
+
+    <link href="/image/apple.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/appleThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:9fcf6015-c701-42ea-82e0-6914357f3130</id>
+    <title>Loaned Indefinite</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loaned indefinitely.
+    </summary>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition">
+      <opds:availability
+        status="available"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:54b8939f-6cb4-44a5-9214-1ca6f3456adb</id>
+    <title>Loaned Timed</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loaned with a time limit.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition">
+      <opds:availability
+        status="available"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1" total="1"/>
+    </link>
+  </entry>
+
+</feed>
