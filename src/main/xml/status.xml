@@ -784,11 +784,11 @@
       A book that's loanable.
     </summary>
 
-    <link href="/image/apple.png"
+    <link href="/image/apples.png"
           type="image/png"
           rel="http://opds-spec.org/image"/>
 
-    <link href="/image/appleThumb.png"
+    <link href="/image/applesThumb.png"
           type="image/png"
           rel="http://opds-spec.org/image/thumbnail"/>
 
@@ -813,11 +813,11 @@
           type="text/html"
           rel="preview"/>
 
-    <link href="/image/apple.png"
+    <link href="/image/apples.png"
           type="image/png"
           rel="http://opds-spec.org/image"/>
 
-    <link href="/image/appleThumb.png"
+    <link href="/image/applesThumb.png"
           type="image/png"
           rel="http://opds-spec.org/image/thumbnail"/>
 
