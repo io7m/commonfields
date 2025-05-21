@@ -36,6 +36,38 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:cb502549-1fdf-4e01-82c0-51e816cb5d3b</id>
+    <title>Held Indefinitely (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with an indefinite hold and no cancellation, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:d938342b-92bc-460c-ae15-fa626f3bff46</id>
     <title>Held Indefinitely Cancellable</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -43,6 +75,41 @@
     <summary type="html">
       A book with an indefinite hold and cancellation.
     </summary>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:815418d8-70dd-4f5c-afba-ff3748081723</id>
+    <title>Held Indefinitely Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with an indefinite hold and cancellation, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/image/apples.png"
           type="image/png"
@@ -95,6 +162,38 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:edd90cbe-e4ca-4923-9f4e-a02f462435fd</id>
+    <title>Held Indefinite Queued (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with an indefinite hold, no cancellation, a queue position, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0" position="3"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:bee5ffa2-0ca7-49db-b9c5-4defe7596a51</id>
     <title>Held Indefinite Queued Cancellable</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -126,6 +225,41 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:7192b527-a76b-4edc-a61c-a584da13aa03</id>
+    <title>Held Indefinite Queued Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with an indefinite hold, cancellation, a queue position, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0" position="3"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:c69722d8-9971-4b21-9d46-e873bc930eec</id>
     <title>Held Timed</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -133,6 +267,39 @@
     <summary type="html">
       A book with a timed hold.
     </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:1dfd2f38-c419-43e9-bbb5-f68891d32867</id>
+    <title>Held Timed (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/image/strawberries.png"
           type="image/png"
@@ -187,6 +354,42 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:75ea6a0f-1e11-4116-aefd-b166da5cb940</id>
+    <title>Held Timed Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold, cancellation, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:e77b4ea9-9f6c-4c09-849e-898e1b8a92c2</id>
     <title>Held Timed Queued</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -194,6 +397,39 @@
     <summary type="html">
       A book with a timed hold and a queue.
     </summary>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0" position="3"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:e5767f65-5908-46b4-a30f-dc3e73af133a</id>
+    <title>Held Timed Queued (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold and a queue, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/image/apples.png"
           type="image/png"
@@ -248,6 +484,42 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:547a6da9-5d2c-4a07-90f5-f4f81caa768a</id>
+    <title>Held Timed Queued Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold and a queue, is cancellable, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/image/apples.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/applesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="reserved"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0" position="3"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:6247fcf4-229e-4c94-ada0-b06fd965a7a5</id>
     <title>Held Ready</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -255,6 +527,38 @@
     <summary type="html">
       A book with a hold that's now ready.
     </summary>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="ready"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:a1a74579-0a70-48b4-b4ba-46a58e70e000</id>
+    <title>Held Ready (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a hold that's now ready, and a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/image/orange.png"
           type="image/png"
@@ -307,6 +611,41 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:5e0dd46b-db99-416b-bf7b-e61ac6462a48</id>
+    <title>Held Ready Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a hold that's now ready, is cancellable, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="ready"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:b3732d34-30f7-44f9-ab69-97b992323be2</id>
     <title>Held Ready (Timed)</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -314,6 +653,39 @@
     <summary type="html">
       A book with a timed hold that's now ready.
     </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="ready"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:252a633e-7293-46de-b032-f9cf3991bc00</id>
+    <title>Held Ready (Timed) (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold that's now ready.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/image/strawberries.png"
           type="image/png"
@@ -368,6 +740,42 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:ea579d2c-eb5b-4813-bea5-ecf9e5ed1784</id>
+    <title>Held Ready Timed Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book with a timed hold that's now ready, is cancellable, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:availability
+        status="ready"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:e33e6c7c-f0a6-4b94-ad18-1106994a5f27</id>
     <title>Loanable</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -375,6 +783,35 @@
     <summary type="html">
       A book that's loanable.
     </summary>
+
+    <link href="/image/apple.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/appleThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition/borrow">
+      <opds:holds total="0"/>
+      <opds:copies available="0" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:f3d6c125-155f-471b-bb4c-f1c50bf66376</id>
+    <title>Loanable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loanable, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/image/apple.png"
           type="image/png"
@@ -421,6 +858,38 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:7fd23ba5-9b08-4081-a3a9-03513ba5d1b3</id>
+    <title>Loaned Indefinite (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loaned indefinitely, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition">
+      <opds:availability
+        status="available"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:f947e1ad-133f-49eb-ab58-97cfdf4259a1</id>
     <title>Loaned Indefinite Cancellable</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -428,6 +897,41 @@
     <summary type="html">
       A book that's loaned indefinitely and is cancellable.
     </summary>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/image/orange.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/orangeThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition">
+      <opds:availability
+        status="available"
+        since="2000-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:a44310fe-5961-4f43-9d9f-e8e0c65d1c73</id>
+    <title>Loaned Indefinite Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loaned indefinitely, is cancellable, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/status.xml"
           rel="http://librarysimplified.org/terms/rel/revoke"/>
@@ -481,6 +985,39 @@
   </entry>
 
   <entry>
+    <id>urn:uuid:37a94ff9-4bb4-4a4d-ba96-dca9f6952b68</id>
+    <title>Loaned Timed (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loaned with a time limit, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition">
+      <opds:availability
+        status="available"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
     <id>urn:uuid:d7387b4c-ca6b-4882-8f42-c3201a911b4e</id>
     <title>Loaned Timed Cancellable</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -488,6 +1025,42 @@
     <summary type="html">
       A book that's loaned with a time limit and is cancellable.
     </summary>
+
+    <link href="/status.xml"
+          rel="http://librarysimplified.org/terms/rel/revoke"/>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/epub/broken-link.epub"
+          type="application/epub+zip"
+          rel="http://opds-spec.org/acquisition">
+      <opds:availability
+        status="available"
+        since="2000-01-01T00:00:00Z"
+        until="2010-01-01T00:00:00Z"/>
+      <opds:holds total="0"/>
+      <opds:copies available="1" total="1"/>
+    </link>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:e94eb157-bfb3-4228-92e1-3fa80b1747c2</id>
+    <title>Loaned Timed Cancellable (Preview)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      A book that's loaned with a time limit, is cancellable, and has a preview.
+    </summary>
+
+    <link href="/preview.xhtml"
+          type="text/html"
+          rel="preview"/>
 
     <link href="/status.xml"
           rel="http://librarysimplified.org/terms/rel/revoke"/>
