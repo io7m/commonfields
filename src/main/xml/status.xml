@@ -279,12 +279,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="1"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -312,12 +309,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="1"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -344,12 +338,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="1"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -380,12 +371,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="1"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -409,12 +397,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0" position="3"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="1"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -442,12 +427,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0" position="3"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="1"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -474,12 +456,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0" position="3"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="3"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -510,12 +489,9 @@
     <link href="/epub/broken-link.epub"
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
-      <opds:availability
-        status="reserved"
-        since="2000-01-01T00:00:00Z"
-        until="2010-01-01T00:00:00Z"/>
-      <opds:holds total="0" position="3"/>
-      <opds:copies available="0" total="1"/>
+      <opds:availability status="reserved" since="2025-05-21T16:56:33+00:00" until="2125-06-14T17:21:24+00:00"/>
+      <opds:holds total="1" position="3"/>
+      <opds:copies total="1" available="0"/>
     </link>
   </entry>
 
@@ -796,7 +772,7 @@
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
       <opds:holds total="0"/>
-      <opds:copies available="0" total="1"/>
+      <opds:copies available="1" total="1"/>
     </link>
   </entry>
 
@@ -825,7 +801,7 @@
           type="application/epub+zip"
           rel="http://opds-spec.org/acquisition/borrow">
       <opds:holds total="0"/>
-      <opds:copies available="0" total="1"/>
+      <opds:copies available="1" total="1"/>
     </link>
   </entry>
 
