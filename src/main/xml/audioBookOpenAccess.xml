@@ -7,7 +7,6 @@
   <updated>2000-01-01T00:00:00+00:00</updated>
 
   <entry>
-
     <id>urn:uuid:f59615bd-b47d-4371-9ac0-447b59b08bcc</id>
     <title>Test Audio Book</title>
     <updated>2000-01-01T00:00:00+00:00</updated>
@@ -24,6 +23,27 @@
           rel="http://opds-spec.org/image/thumbnail"/>
 
     <link href="/audiobook/0/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
+  <entry>
+    <id>urn:uuid:8eccf4bf-fdd1-4aed-a0f5-70297f2ee5d7</id>
+    <title>Test Audio Book (Invalid Manifest)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      An audio book that delivers a completely unusable manifest.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/audiobook/invalid0/manifest.json"
           rel="http://opds-spec.org/acquisition/open-access"
           type="application/audiobook+json"/>
   </entry>
