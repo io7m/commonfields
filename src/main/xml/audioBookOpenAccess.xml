@@ -48,4 +48,25 @@
           type="application/audiobook+json"/>
   </entry>
 
+  <entry>
+    <id>urn:uuid:8eccf4bf-fdd1-4aed-a0f5-70297f2ee5d7</id>
+    <title>Test Audio Book (401 Chapters)</title>
+    <updated>2000-01-01T00:00:00+00:00</updated>
+
+    <summary type="html">
+      An audio book that delivers 401 errors instead of chapters.
+    </summary>
+
+    <link href="/image/strawberries.png"
+          type="image/png"
+          rel="http://opds-spec.org/image"/>
+    <link href="/image/strawberriesThumb.png"
+          type="image/png"
+          rel="http://opds-spec.org/image/thumbnail"/>
+
+    <link href="/audiobook/401/manifest.json"
+          rel="http://opds-spec.org/acquisition/open-access"
+          type="application/audiobook+json"/>
+  </entry>
+
 </feed>
